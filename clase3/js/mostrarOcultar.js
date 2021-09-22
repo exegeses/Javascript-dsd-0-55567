@@ -11,3 +11,24 @@ function mostrarCaja()
     caja.style.display = 'block';
 }
 
+/* propuesta de Naty similar Pablo */
+function mostrarOcultarCaja(){
+    if( caja.style.display == 'none'){
+        mostrarCaja();
+    }else{
+        ocultarCaja();
+    }
+}
+/* propuesta de Mauro */
+var visible = true;
+function mostrarOcultar()
+{
+    if(visible){
+        ocultarCaja();
+        visible = false;
+    }
+    else{
+        mostrarCaja();
+        visible = true;
+    }
+}
