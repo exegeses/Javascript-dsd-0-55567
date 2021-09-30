@@ -24,3 +24,9 @@
         n++;
     }
     document.write('</ul>');
+
+
+    /*  */
+    for ( let unCelu in celulares ){
+        console.log( 'unCelu: ' + celulares[unCelu] )
+    }
